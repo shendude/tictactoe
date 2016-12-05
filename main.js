@@ -6,7 +6,7 @@ function getInput() {
     if (err) {
       done();
     } else {
-      inputs.push(result);
+      inputs.push(res);
       getInput();
     }
   })
